@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import todoStore from './TodoStore'
+import {enableLogging} from 'mobx-logger';
+
+enableLogging()
 
 window.todoStore = todoStore;
 

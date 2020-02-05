@@ -22,7 +22,7 @@ class TodoStore {
     createTodo(title) {
         const newTodo = new Todo()
         newTodo.title = title
-        this.todos.push()
+        this.todos.push(newTodo)
     }
 }
 
