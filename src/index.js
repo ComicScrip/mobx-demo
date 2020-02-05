@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import todoStore from './TodoStore'
+
+window.todoStore = todoStore;
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul .todo-item {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.finished {
+  text-decoration: line-through;
+}
