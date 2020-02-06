@@ -22,11 +22,15 @@ class TodoListView extends React.Component {
     }
 }
 
-const TodoView = observer(({ todo }) => (
+const TodoView = observer(({ todo }) => {
+  console.log('rendering ' + todo.title)
+
+  return (
     <li onClick={todo.toggleFinished} className={'todo-item ' + (todo.finished ? 'finished' : '')}>
         {todo.title}
     </li>
-))
+  )
+})
 
 function App() {
   return (

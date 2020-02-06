@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import todoStore from './TodoStore'
 import {enableLogging} from 'mobx-logger';
 
-enableLogging()
+//enableLogging()
 
 window.todoStore = todoStore;
 
