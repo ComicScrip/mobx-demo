@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+ul {
+  padding: 0
+}
+
 ul .todo-item {
   list-style-type: none;
   cursor: pointer;
@@ -19,4 +23,9 @@ ul .todo-item {
 
 .finished {
   text-decoration: line-through;
+}
+
+.todo-input {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
